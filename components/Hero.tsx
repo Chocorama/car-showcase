@@ -1,9 +1,9 @@
 import React from "react";
-import CustomButton from "./CustomButton";
+import { CustomButton } from "@components";
 
 const Hero = () => {
   return <div>Hero</div>;
-        <CustomButton />
+  <CustomButton />;
 };
 
 export default Hero;
